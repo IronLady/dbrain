@@ -1,0 +1,132 @@
+.pb-hero-work-single {
+    position: relative;
+    padding-top: 110px;
+    padding-bottom: 100px;
+    margin-bottom: 32px;
+    background-position: bottom;
+
+    @media (min-width: 1024px) {
+        padding-top: 140px;
+        padding-bottom: 240px;
+        margin-bottom: 96px;
+    }
+
+    &__intro {
+        margin: 0 auto 32px;
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+        max-width: 100%;
+
+        @media (min-width: 1024px) {
+            width: 540px;
+            margin: 0 auto 64px;
+            padding: 0;
+        }
+
+        &-text {
+            padding-top: 36px;
+            padding-right: 32px;
+            padding-left: 32px;
+
+            @media (min-width: 1024px) {
+                padding-top: 64px;
+                padding-right: 0;
+                padding-left: 0;
+            }
+
+            h1 {
+                margin-bottom: 10px;
+                font-size: 32px;
+                line-height: 34px;
+                font-weight: 800;
+                text-transform: uppercase;
+                color: #fff;
+
+                @media (min-width: 1024px) {
+                    font-size: 48px;
+                    line-height: 50px;
+                }
+
+                &:before {
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+    
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                color: #fff;
+
+                @media (min-width: 1024px) {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+
+    &__image {
+        position: relative;
+        width: calc(100% + 64px);
+        left: -32px;
+        margin-bottom: 32px;
+        text-align: center;
+
+        @media (min-width: 1024px) {
+            width: 100%;
+            left: 0;
+            margin-bottom: 64px;
+        }
+
+        img {
+            margin: 0 auto;
+            border-radius: 8px;
+            box-shadow: 0px 6px 24px rgba(0,0,0,0.25);
+
+            @media (min-width: 1024px) {
+                border-radius: 12px;
+                box-shadow: 0px 8px 32px rgba(0,0,0,0.25);
+            } 
+        }
+    }
+
+    &__challenge {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+
+        @media (min-width: 1024px) {
+            width: 540px;
+        }
+
+        h5 {
+            margin-bottom: 8px;
+            font-size: 24px;
+            line-height: 28px;
+            font-weight: 800;
+
+            @media (min-width: 1024px) {
+                margin-bottom: 16px;
+                font-size: 36px;
+                line-height: 44px;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 24px;
+
+            @media (min-width: 1024px) {
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+    }
+
+    .hero-curve {
+        bottom: -2px;
+    }
+}

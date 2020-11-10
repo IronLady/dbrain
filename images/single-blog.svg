@@ -1,0 +1,9 @@
+<svg id="Hero_Area" data-name="Hero Area" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="532.517" viewBox="0 0 1440 532.517">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.1" cy="0.09" r="1.013" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2a2a57"/>
+      <stop offset="1" stop-color="#1d1d26"/>
+    </radialGradient>
+  </defs>
+  <path id="Combined_Shape" data-name="Combined Shape" d="M83.593,532.384H0V0H1440V532.384H502.421c-13.549-.483-126.676-.284-232.124-.084-57.084.108-111.91.216-147.479.216C102.044,532.517,87.833,532.48,83.593,532.384Z" fill="url(#radial-gradient)"/>
+</svg>

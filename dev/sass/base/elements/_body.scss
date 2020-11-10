@@ -1,0 +1,6 @@
+body {
+	margin: 0;
+	margin-bottom: 0 !important;
+	background: $color__background-body; // Fallback for when there is no custom background color defined.
+	color: #121212;
+}

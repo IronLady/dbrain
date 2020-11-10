@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="184px" viewBox="0 0 1440 184" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Home Curve@1x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hero-Curves" transform="translate(-40.000000, -40.000000)" fill="#FFFFFF">
+            <path d="M40,102.27917 C151.750358,170.41165 271.513227,153.569761 360.232718,109.252762 C448.95221,64.9357636 549.061266,40 655,40 C799.179085,40 932.907358,91.0720275 1041.12804,164.55834 C1148.26652,237.309789 1329.54153,262.671268 1475.58533,118.722107 L1480,114.308062 L1480,224 L40,224 L40,102.27917 Z" id="Home-Curve"></path>
+        </g>
+    </g>
+</svg>

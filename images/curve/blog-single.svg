@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="118px" viewBox="0 0 1440 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Blog Single Curve@1x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hero-Curves" transform="translate(-50.000000, -2261.000000)" fill="#FFFFFF">
+            <path d="M1490,2379 L50,2379 L50,2261 C63.4146346,2261.30224 76.9479005,2261.81616 90.5119945,2262.36619 L107.961619,2263.07944 C111.840017,2263.23622 115.717859,2263.3898 119.593098,2263.53609 L125.403748,2263.74955 C387.378869,2273.08472 634.518032,2298.39057 853.470203,2335.55283 L860.096476,2336.68259 C1036.35742,2366.87014 1263.00494,2386.14665 1490,2374.65144 L1490,2379 Z" id="Blog-Single-Curve"></path>
+        </g>
+    </g>
+</svg>

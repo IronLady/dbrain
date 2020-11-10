@@ -1,0 +1,45 @@
+.pb-copyright {
+    background-color: #121212;
+    padding: 64px 0 0;
+
+    &__inner {
+        max-width: 660px;
+        margin: 0 auto;
+        text-align: center;
+
+        .site-branding {
+            max-width: 200px;
+            margin: 0 auto 24px;
+        }
+    }
+
+    hr {
+        max-width: 1120px;
+        margin: 0 auto;
+        background-color: #575657;
+    }
+
+    &__address {
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+
+        @media (min-width: 1024px) {
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+
+    &__content {
+        padding: 16px 0;
+        margin-bottom: 0;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(255, 255, 255, .5);
+
+        @media (min-width: 1024px) {
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+}

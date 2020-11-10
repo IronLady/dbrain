@@ -1,0 +1,74 @@
+.pb-testimonials {
+    margin-bottom: 64px;
+
+    @media (min-width: 1024px) {
+        margin-bottom: 114px;
+    }
+
+    &__wrap {
+        display: flex;
+    }
+
+    &__before {
+        position: relative;
+        top: -12px;
+        min-width: 26px;
+        margin-right: 8px;
+
+        @media (min-width: 1024px) {
+            top: -24px;
+            min-width: 92px;
+            margin-right: 18px;
+        }
+    }
+
+    &__after {
+        position: relative;
+        min-width: 26px;
+        margin-left: 8px;
+
+        @media (min-width: 1024px) {
+            min-width: 92px;
+            margin-left: 18px;
+        }
+
+        span {
+            position: absolute;
+            bottom: 24px;
+
+            @media (min-width: 1024px) {
+                bottom: 12px;
+            }
+        }
+    }
+
+    &__content {
+        margin-bottom: 16px;
+        padding: 20px 22px;
+        font-size: 24px;
+        line-height: 28px;
+        background-color: #61C096;
+        color: #fff;
+        border-radius: 12px;
+
+        @media (min-width: 1024px) {
+            padding: 46px 54px;
+            font-size: 36px;
+            line-height: 44px;
+        }
+    }
+
+    &__author {
+        font-size: 16px;
+        line-height: 24px;
+
+        span {
+            font-weight: 700;
+        }
+
+        @media (min-width: 1024px) {
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+}

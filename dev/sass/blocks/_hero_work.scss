@@ -1,0 +1,173 @@
+.pb-hero-work {
+    position: relative;
+    padding-top: 110px;
+    padding-bottom: 164px;
+    margin-bottom: 32px;
+    background-position: bottom;
+    overflow: hidden;
+
+    @media (min-width: 1024px) {
+        padding-top: 140px;
+        padding-bottom: 240px;
+        margin-bottom: 96px;
+    }
+
+    &__intro {
+        margin: 0 auto 64px;
+        width: 100%;
+        padding: 0 15px;
+        text-align: center;
+        max-width: 100%;
+
+        @media (min-width: 1024px) {
+            width: 540px;
+            padding: 0;
+        }
+
+        &-text {
+            padding-top: 32px;
+            padding-right: 32px;
+            padding-left: 32px;
+
+            @media (min-width: 1024px) {
+                padding-top: 64px;
+                padding-right: 0;
+                padding-left: 0;
+            }
+
+            h1 {
+                margin-bottom: 10px;
+                font-size: 32px;
+                line-height: 34px;
+                font-weight: 800;
+                text-transform: uppercase;
+                color: #fff;
+
+                @media (min-width: 1024px) {
+                    font-size: 48px;
+                    line-height: 50px;
+                }
+
+                &:before {
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+    
+            p {
+                font-size: 16px;
+                line-height: 24px;
+                color: #fff;
+
+                @media (min-width: 1024px) {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        }
+    }
+
+    &__featured {
+        padding: 32px 32px 0;
+        border-radius: 8px;
+        background: radial-gradient(circle at top right, rgba(97,192,150,1) 0%, rgba(0,170,231,1) 100%);
+
+        @media (min-width: 1024px) {
+            padding: 48px 100px 0;
+            border-radius: 12px;
+        }
+    }
+
+    &__project {
+        &-heading {
+            display: block;
+            align-items: flex-start;
+            justify-content: space-between;
+
+            @media (min-width: 1024px) {
+                display: flex;
+            }
+
+            &-left {
+                width: 100%;
+
+                @media (min-width: 1024px) {
+                    width: 70%;
+                }
+            }
+
+            &-right {
+                margin-top: 16px;
+                width: 100%;
+                display: block;
+
+                @media (min-width: 1024px) {
+                    width: 30%;
+                    margin-top: 0;
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: flex-end;
+                }
+            }
+
+            h3 {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18px;
+                color: #fff;
+                text-transform: uppercase;
+            }
+
+            h5 {
+                margin-bottom: 0;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 24px;
+                color: #fff;
+
+                @media (min-width: 1024px) {
+                    font-size: 24px;
+                    line-height: 28px;
+                }
+            }
+
+            a {
+                font-size: 14px;
+                color: #121212;
+                text-decoration: none;
+
+                &:after {
+                    content: '';
+                    display: inline-block;
+                    margin-left: 8px;
+                    width: 24px;
+                    height: 8px;
+                    background-image: url(images/next.svg);
+                    background-position: center;
+                    background-size: cover;
+                }
+            }
+        }
+
+        &-image {
+            position: relative;
+            top: 48px;
+            img {
+                width: 100%;
+                border-radius: 8px;
+                box-shadow: 0px 10px 25px rgba(0,0,0,0.25);
+
+                @media (min-width: 1024px) {
+                    border-radius: 12px;
+                    box-shadow: 0px 15px 40px rgba(0,0,0,0.25);
+                }
+            }
+        }
+    }
+
+    &.pb-hero-archive {
+        padding-top: 160px;
+        padding-bottom: 160px;
+        margin-bottom: 64px;
+    }
+}

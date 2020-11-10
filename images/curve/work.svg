@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="109px" viewBox="0 0 1440 109" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Work Curve@1x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hero-Curves" transform="translate(-40.000000, -1082.000000)" fill="#FFFFFF">
+            <path d="M40,1165.21006 C185.344752,1114.60799 352.824233,1082 530.595546,1082 C694.138157,1082 848.68122,1106.95727 985.641676,1151.31248 C1121.23253,1195.22415 1303.79283,1212.18424 1474.82092,1146.35316 L1480,1144.33288 L1480,1191 L40,1191 L40,1165.21006 Z" id="Work-Curve"></path>
+        </g>
+    </g>
+</svg>

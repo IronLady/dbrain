@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="104px" viewBox="0 0 1440 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Contact Curve@1x</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Hero-Curves" transform="translate(-50.000000, -2548.000000)" fill="#FFFFFF">
+            <path d="M1490,2652 L50,2652 L50,2582.94984 C160.632855,2620.80209 279.11877,2611.91736 367.56186,2587.60472 L370.232718,2586.86328 C458.95221,2561.99346 559.061266,2548 665,2548 C809.179085,2548 942.907358,2576.66061 1051.12804,2617.89968 C1158.26652,2658.72635 1339.54153,2672.95871 1485.58533,2592.17729 L1490,2589.70021 L1490,2652 Z" id="Contact-Curve"></path>
+        </g>
+    </g>
+</svg>

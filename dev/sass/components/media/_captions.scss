@@ -1,0 +1,36 @@
+.wp-caption {
+	margin-top: 0;
+	margin-bottom: 24px;
+	max-width: 100%;
+
+	img[class*="wp-image-"] {
+
+		@include center-block;
+	}
+
+	.wp-caption-text {
+		max-width: 100%;
+		margin: 16px 0;
+
+		@media (min-width: 1024px) {
+			max-width: 50%;
+		}
+	}
+}
+
+.wp-caption-text {
+	font-size: 12px;
+	line-height: 16px;
+	color: #969496;
+
+	@media (min-width: 1024px) {
+		font-size: 14px;
+		line-height: 22px;
+	}
+}
+
+.pb-text__heading {
+	.wp-caption-text {
+		max-width: none;
+	}
+}
